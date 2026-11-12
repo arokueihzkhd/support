@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Download our app from your preferred app store. Available for iOS on App Store, Android on Google Play, or direct APK download.">
+    <title>Download Our App | Choose Your App Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+            color: #212529;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            color: #6c757d;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .download-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .benefits {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 50px auto 30px;
+            max-width: 900px;
+        }
+        
+        .benefit-item {
+            flex: 1 1 250px;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .benefit-item img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 15px;
+        }
+        
+        .benefit-item h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #343a40;
+        }
+        
+        .benefit-item p {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+
+        .download-button {
+            display: flex;
+            align-items: center;
+            padding: 15px 30px;
+            border-radius: 8px;
+            background: #007AFF;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .download-button:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .download-button img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .download-button {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Download Our App</h1>
+            <p>Choose the app store that matches your device</p>
+            <div class="download-buttons">
+                <a href="#" class="download-button" id="ios-download">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.02.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11'/%3E%3C/svg%3E" alt="iOS">
+                    App Store
+                </a>
+                <a href="#" class="download-button" id="android-download">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M16.61 15.15v5.47h-1.76v-5.47h1.76m-6.46 0v5.47H8.39v-5.47h1.76m8.42-7.27-1.47-2.57.58-.58 1.47 2.57-.58.58m-14.21-.58 1.47-2.57.58.58-1.47 2.57-.58-.58M17 5.79l-5-8.68-5 8.68c-3.12.93-5 3.8-5 6.93v2.84c0 1.03.84 1.87 1.87 1.87h16.26c1.03 0 1.87-.84 1.87-1.87v-2.84c0-3.13-1.88-6-5-6.93M12 3.16l2.91 5.05H9.09L12 3.16Z'/%3E%3C/svg%3E" alt="Android">
+                    Google Play
+                </a>
+                <a href="#" class="download-button" id="direct-download">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z'/%3E%3C/svg%3E" alt="Download">
+                    Download APK
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Detect device type and redirect automatically
+        document.addEventListener('DOMContentLoaded', function() {
+            const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+            const isAndroid = /Android/.test(navigator.userAgent);
+            
+            // Set download links
+            const iosButton = document.getElementById('ios-download');
+            const androidButton = document.getElementById('android-download');
+            const directButton = document.getElementById('direct-download');
+
+            // Replace the following URLs with actual download links
+            const iosLink = "https://apps.apple.com/us/app/marbms/id6751799681";
+            const androidLink = "https://play.google.com/store/apps/details?id=max.bms.bluetooth";
+            const directLink = "https://www.pgyer.com/marbms-android";
+
+            // Check if links are valid and set button display status
+            function isValidLink(url) {
+                return url && url !== "#";
+            }
+
+            if (isValidLink(iosLink)) {
+                iosButton.href = iosLink;
+            } else {
+                iosButton.style.display = 'none';
+            }
+
+            if (isValidLink(androidLink)) {
+                androidButton.href = androidLink;
+            } else {
+                androidButton.style.display = 'none';
+            }
+
+            if (isValidLink(directLink)) {
+                directButton.href = directLink;
+            } else {
+                directButton.style.display = 'none';
+            }
+
+            // Highlight the appropriate download button based on device type
+            if (isIOS) {
+                androidButton.style.opacity = '0.7';
+                directButton.style.opacity = '0.7';
+                iosButton.style.background = '#00C853';
+                iosButton.innerHTML = `<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.02.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11'/%3E%3C/svg%3E" alt="iOS">Recommended for your iPhone`;
+            } else if (isAndroid) {
+                iosButton.style.opacity = '0.7';
+                directButton.style.opacity = '0.7';
+                androidButton.style.background = '#00C853';
+                androidButton.innerHTML = `<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M16.61 15.15v5.47h-1.76v-5.47h1.76m-6.46 0v5.47H8.39v-5.47h1.76m8.42-7.27-1.47-2.57.58-.58 1.47 2.57-.58.58m-14.21-.58 1.47-2.57.58.58-1.47 2.57-.58-.58M17 5.79l-5-8.68-5 8.68c-3.12.93-5 3.8-5 6.93v2.84c0 1.03.84 1.87 1.87 1.87h16.26c1.03 0 1.87-.84 1.87-1.87v-2.84c0-3.13-1.88-6-5-6.93M12 3.16l2.91 5.05H9.09L12 3.16Z'/%3E%3C/svg%3E" alt="Android">Recommended for your Android`;
+            }
+        });
+    </script>
+</body>
+</html> 
